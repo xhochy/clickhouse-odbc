@@ -9,7 +9,6 @@ set (CXX_WARNING_FLAGS "-Wnon-virtual-dtor")
 
 set (CMAKE_BUILD_COLOR_MAKEFILE          ON)
 set (CMAKE_CXX_FLAGS                     "${CMAKE_CXX_FLAGS} -std=c++14 -O2 -g -fvisibility-inlines-hidden")
-set (CMAKE_SHARED_LINKER_FLAGS           "${CMAKE_SHARED_LINKER_FLAGS} -Wl,-Bstatic,--whole-archive -static-libgcc -static-libstdc++ -Wl,--no-whole-archive")
 set (CMAKE_POSITION_INDEPENDENT_CODE     ON)
 
 # === find_poco ===

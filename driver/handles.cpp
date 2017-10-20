@@ -4,8 +4,6 @@
 #include "statement.h"
 #include "utils.h"
 
-#include <malloc.h>
-
 static RETCODE allocEnv(SQLHENV * out_environment)
 {
     if (nullptr == out_environment)

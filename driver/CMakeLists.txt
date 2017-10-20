@@ -24,4 +24,5 @@ target_link_libraries(clickhouse-odbc
     ${Poco_Net_LIBRARY}
     ${Poco_Foundation_LIBRARY}
     ${ODBC_LIBRARIES}
+    ltdl
 )
